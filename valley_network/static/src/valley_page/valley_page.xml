@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="valley_network.ValleyPage">
+        <div class="valley-page">
+            <div class="valley-container">
+                <!-- Valley Logo -->
+                <div class="valley-logo">
+                    <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.5 4L25 28H0L12.5 4Z" fill="#5B3DF5"/>
+                        <text x="32" y="24" fill="white" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Valley</text>
+                    </svg>
+                </div>
+
+                <!-- Tagline -->
+                <h1 class="valley-tagline">Built by builders. For builders.</h1>
+
+                <!-- Description -->
+                <p class="valley-description">
+                    A European professional network where companies say what they need right now and find the right people.
+                </p>
+
+                <!-- Benefits -->
+                <div class="valley-benefits">
+                    <div class="valley-benefit">
+                        <span class="valley-benefit-icon">🤝</span>
+                        <span class="valley-benefit-text">Find partners</span>
+                    </div>
+                    <div class="valley-benefit">
+                        <span class="valley-benefit-icon">👥</span>
+                        <span class="valley-benefit-text">Hire talent</span>
+                    </div>
+                    <div class="valley-benefit">
+                        <span class="valley-benefit-icon">💰</span>
+                        <span class="valley-benefit-text">Meet investors</span>
+                    </div>
+                </div>
+
+                <!-- Join Button -->
+                <button class="valley-join-btn" t-on-click="joinValley">
+                    Join Valley
+                </button>
+            </div>
+        </div>
+    </t>
+</templates>

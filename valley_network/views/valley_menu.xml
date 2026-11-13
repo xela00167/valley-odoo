@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Top-level Valley menu -->
+    <menuitem
+        id="menu_valley_root"
+        name="Valley"
+        web_icon="valley_network,static/description/icon.png"
+        sequence="100"
+    />
+
+    <!-- Valley page action -->
+    <record id="action_valley_page" model="ir.actions.client">
+        <field name="name">Valley Network</field>
+        <field name="tag">valley_network.ValleyPage</field>
+    </record>
+
+    <!-- Menu item opening the Valley page -->
+    <menuitem
+        id="menu_valley_page"
+        name="Join Valley"
+        parent="menu_valley_root"
+        action="action_valley_page"
+        sequence="10"
+    />
+</odoo>
