@@ -30,7 +30,7 @@ This app adds a Valley page to your Odoo instance with a direct link to join Val
             'valley_network/static/src/valley_page/valley_page.scss',
         ],
     },
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

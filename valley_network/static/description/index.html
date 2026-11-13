@@ -1,144 +1,105 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <style>
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #17171C;
-            color: #FFFFFF;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 42px;
-            font-weight: 700;
-            margin: 0 0 8px 0;
-            color: #FFFFFF;
-        }
-        .tagline {
-            font-size: 20px;
-            color: #D6EC8E;
-            margin-bottom: 32px;
-            font-weight: 500;
-        }
-        .description {
-            font-size: 18px;
-            color: #A1A1AA;
-            margin-bottom: 40px;
-            line-height: 1.7;
-        }
-        h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 28px;
-            font-weight: 600;
-            color: #FFFFFF;
-            margin: 48px 0 20px 0;
-            padding-top: 24px;
-            border-top: 1px solid #2A2A32;
-        }
-        .benefits {
-            display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-            margin: 24px 0;
-        }
-        .benefit {
-            background: linear-gradient(135deg, #5B3DF5 0%, #3019A5 100%);
-            color: #FFFFFF;
-            padding: 12px 24px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 16px;
-        }
-        ul {
-            padding-left: 0;
-            list-style: none;
-        }
-        li {
-            margin: 16px 0;
-            padding-left: 28px;
-            position: relative;
-            color: #E4E4E7;
-        }
-        li::before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: #5B3DF5;
-            font-weight: bold;
-        }
-        .cta {
-            background: #5B3DF5;
-            color: #FFFFFF;
-            padding: 16px 32px;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 18px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 24px;
-        }
-        .footer {
-            margin-top: 48px;
-            padding-top: 24px;
-            border-top: 1px solid #2A2A32;
-            color: #71717A;
-            font-size: 14px;
-        }
-        .footer a {
-            color: #D6EC8E;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Valley Network</h1>
-        <p class="tagline">Built by builders. For builders.</p>
+<section style="background-color:#17171C; padding:0;">
+    <div class="container-fluid p-0">
+        <img src="./banner.png" alt="Valley Network" class="img-fluid w-100">
+    </div>
+</section>
 
-        <p class="description">
-            Join Valley, the European professional network where companies say what they need right now and find the right people.
-        </p>
-
-        <div class="benefits">
-            <span class="benefit">Find Partners</span>
-            <span class="benefit">Hire Talent</span>
-            <span class="benefit">Meet Investors</span>
+<section style="background-color:#17171C; color:#FFFFFF;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1 style="font-size:42px; font-weight:700; color:#FFFFFF; margin-bottom:8px;">Valley Network</h1>
+                <p style="font-size:20px; color:#D6EC8E; font-weight:500;">Built by builders. For builders.</p>
+            </div>
         </div>
 
-        <h2>What is Valley?</h2>
-        <p class="description">
-            Valley is a modern professional network designed for the European tech ecosystem.
-            Unlike traditional platforms, Valley focuses on real-time needs: companies post what
-            they're looking for right now, and the right people find them.
-        </p>
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <p style="font-size:18px; color:#A1A1AA; line-height:1.7; max-width:700px; margin:0 auto;">
+                    Join Valley, the European professional network where companies say what they need right now and find the right people.
+                </p>
+            </div>
+        </div>
 
-        <h2>How it works</h2>
-        <ul>
-            <li><strong>Install</strong> this free app on your Odoo instance</li>
-            <li><strong>Click</strong> the Valley menu to open the Valley page</li>
-            <li><strong>Join</strong> Valley by clicking the button</li>
-        </ul>
-
-        <h2>Features</h2>
-        <ul>
-            <li>One-click access to Valley from your Odoo menu</li>
-            <li>Clean, branded Valley page inside Odoo</li>
-            <li>Direct link to Valley onboarding</li>
-            <li>Free to install and use</li>
-        </ul>
-
-        <div class="footer">
-            <p>For questions or support, visit <a href="https://valleynetwork.eu">valleynetwork.eu</a></p>
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <span style="background-color:#5B3DF5; color:#FFFFFF; padding:12px 24px; border-radius:50px; font-weight:600; font-size:16px; display:inline-block; margin:8px;">Find Partners</span>
+                <span style="background-color:#5B3DF5; color:#FFFFFF; padding:12px 24px; border-radius:50px; font-weight:600; font-size:16px; display:inline-block; margin:8px;">Hire Talent</span>
+                <span style="background-color:#5B3DF5; color:#FFFFFF; padding:12px 24px; border-radius:50px; font-weight:600; font-size:16px; display:inline-block; margin:8px;">Meet Investors</span>
+            </div>
         </div>
     </div>
-</body>
-</html>
+</section>
+
+<section style="background-color:#1F1F26; color:#FFFFFF;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 style="font-size:28px; font-weight:600; color:#FFFFFF;">What is Valley?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p style="font-size:18px; color:#A1A1AA; line-height:1.7; max-width:700px; margin:0 auto;">
+                    Valley is a modern professional network designed for the European tech ecosystem.
+                    Unlike traditional platforms, Valley focuses on real-time needs: companies post what
+                    they&rsquo;re looking for right now, and the right people find them.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#17171C; color:#FFFFFF;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 style="font-size:28px; font-weight:600; color:#FFFFFF;">How it works</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12 text-center mb-4">
+                <div style="background-color:#2A2A32; border-radius:12px; padding:24px;">
+                    <p style="font-size:32px; margin-bottom:12px;">1</p>
+                    <h3 style="font-size:18px; font-weight:600; color:#FFFFFF; margin-bottom:8px;">Install</h3>
+                    <p style="font-size:14px; color:#A1A1AA;">Add this free app to your Odoo instance</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center mb-4">
+                <div style="background-color:#2A2A32; border-radius:12px; padding:24px;">
+                    <p style="font-size:32px; margin-bottom:12px;">2</p>
+                    <h3 style="font-size:18px; font-weight:600; color:#FFFFFF; margin-bottom:8px;">Click</h3>
+                    <p style="font-size:14px; color:#A1A1AA;">Open the Valley menu in Odoo</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center mb-4">
+                <div style="background-color:#2A2A32; border-radius:12px; padding:24px;">
+                    <p style="font-size:32px; margin-bottom:12px;">3</p>
+                    <h3 style="font-size:18px; font-weight:600; color:#FFFFFF; margin-bottom:8px;">Join</h3>
+                    <p style="font-size:14px; color:#A1A1AA;">Sign up on Valley and connect</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#5B3DF5; color:#FFFFFF;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 style="font-size:28px; font-weight:600; color:#FFFFFF; margin-bottom:16px;">Ready to join the European tech ecosystem?</h2>
+                <p style="font-size:16px; color:#FFFFFF; opacity:0.9;">Install Valley Network and connect with partners, talent, and investors.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#17171C; color:#71717A;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p style="font-size:14px;">For questions or support, visit valleynetwork.eu</p>
+            </div>
+        </div>
+    </div>
+</section>
