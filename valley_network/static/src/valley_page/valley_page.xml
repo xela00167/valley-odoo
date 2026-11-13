@@ -5,9 +5,9 @@
             <div class="valley-container">
                 <!-- Valley Logo -->
                 <div class="valley-logo">
-                    <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.5 4L25 28H0L12.5 4Z" fill="#5B3DF5"/>
-                        <text x="32" y="24" fill="white" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Valley</text>
+                    <svg viewBox="0 0 396.84 369.06" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FFFFFF" d="M326.31,70l.53,74.86c.05,7.56-3.27,13.87-8.31,19.1l-74.14,77.05c-3.79,3.94-11,6.88-16.36,6.87l-55.71-.04c-6.21,0-13.11-3.21-17.48-7.6l-84.83-85.24,69.44-.33c4.25-.02,9.2,2.68,12.51,5.37l65.98,66.17c2.25,2.26,8.49,2.07,11.06.51,2.28-1.38,5.08-5.68,5.07-8.98l-.06-48c0-4.16,1.89-9.63,5.03-12.76l87.27-86.99Z"/>
+                        <path fill="#FFFFFF" d="M326.59,290.74l-.14,8.33H119.91c-9.75-1.17-14.91-9.1-14.85-18.31l.29-14.48h198.41c12.61,1.14,22.87,11.04,22.82,24.46Z"/>
                     </svg>
                 </div>
 

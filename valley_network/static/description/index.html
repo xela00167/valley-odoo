@@ -4,85 +4,141 @@
     <meta charset="utf-8">
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background: #17171C;
+            color: #FFFFFF;
+        }
+        .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px 20px;
         }
         h1 {
-            color: #5B3DF5;
-            border-bottom: 2px solid #D6EC8E;
-            padding-bottom: 10px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            color: #FFFFFF;
+        }
+        .tagline {
+            font-size: 20px;
+            color: #D6EC8E;
+            margin-bottom: 32px;
+            font-weight: 500;
+        }
+        .description {
+            font-size: 18px;
+            color: #A1A1AA;
+            margin-bottom: 40px;
+            line-height: 1.7;
         }
         h2 {
-            color: #17171C;
-            margin-top: 30px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin: 48px 0 20px 0;
+            padding-top: 24px;
+            border-top: 1px solid #2A2A32;
         }
-        .highlight {
-            background-color: #f5f3ff;
-            border-left: 4px solid #5B3DF5;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin: 10px 0;
+        .benefits {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin: 24px 0;
         }
         .benefit {
+            background: linear-gradient(135deg, #5B3DF5 0%, #3019A5 100%);
+            color: #FFFFFF;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        ul {
+            padding-left: 0;
+            list-style: none;
+        }
+        li {
+            margin: 16px 0;
+            padding-left: 28px;
+            position: relative;
+            color: #E4E4E7;
+        }
+        li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #5B3DF5;
+            font-weight: bold;
+        }
+        .cta {
+            background: #5B3DF5;
+            color: #FFFFFF;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
             display: inline-block;
-            background: #D6EC8E;
-            color: #17171C;
-            padding: 5px 15px;
-            border-radius: 20px;
-            margin: 5px;
-            font-weight: 500;
+            margin-top: 24px;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #2A2A32;
+            color: #71717A;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #D6EC8E;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Valley Network</h1>
+    <div class="container">
+        <h1>Valley Network</h1>
+        <p class="tagline">Built by builders. For builders.</p>
 
-    <div class="highlight">
-        <strong>Built by builders. For builders.</strong><br>
-        Join Valley, the European professional network where companies say what they need right now and find the right people.
+        <p class="description">
+            Join Valley, the European professional network where companies say what they need right now and find the right people.
+        </p>
+
+        <div class="benefits">
+            <span class="benefit">Find Partners</span>
+            <span class="benefit">Hire Talent</span>
+            <span class="benefit">Meet Investors</span>
+        </div>
+
+        <h2>What is Valley?</h2>
+        <p class="description">
+            Valley is a modern professional network designed for the European tech ecosystem.
+            Unlike traditional platforms, Valley focuses on real-time needs: companies post what
+            they're looking for right now, and the right people find them.
+        </p>
+
+        <h2>How it works</h2>
+        <ul>
+            <li><strong>Install</strong> this free app on your Odoo instance</li>
+            <li><strong>Click</strong> the Valley menu to open the Valley page</li>
+            <li><strong>Join</strong> Valley by clicking the button</li>
+        </ul>
+
+        <h2>Features</h2>
+        <ul>
+            <li>One-click access to Valley from your Odoo menu</li>
+            <li>Clean, branded Valley page inside Odoo</li>
+            <li>Direct link to Valley onboarding</li>
+            <li>Free to install and use</li>
+        </ul>
+
+        <div class="footer">
+            <p>For questions or support, visit <a href="https://valleynetwork.eu">valleynetwork.eu</a></p>
+        </div>
     </div>
-
-    <h2>What is Valley?</h2>
-    <p>
-        Valley is a modern professional network designed for the European tech ecosystem.
-        Unlike traditional platforms, Valley focuses on real-time needs: companies post what
-        they're looking for right now, and the right people find them.
-    </p>
-
-    <h2>Benefits</h2>
-    <p>
-        <span class="benefit">Find Partners</span>
-        <span class="benefit">Hire Talent</span>
-        <span class="benefit">Meet Investors</span>
-    </p>
-
-    <h2>How it works</h2>
-    <ul>
-        <li><strong>Install</strong> this free app on your Odoo instance</li>
-        <li><strong>Click</strong> the Valley menu to open the Valley page</li>
-        <li><strong>Join</strong> Valley by clicking the button - you'll be redirected to Valley's signup</li>
-    </ul>
-
-    <h2>Features</h2>
-    <ul>
-        <li>One-click access to Valley from your Odoo menu</li>
-        <li>Clean, branded Valley page inside Odoo</li>
-        <li>Direct link to Valley onboarding</li>
-        <li>Free to install and use</li>
-    </ul>
-
-    <h2>Support</h2>
-    <p>
-        For questions or support, visit <a href="https://valleynetwork.eu">valleynetwork.eu</a>
-    </p>
 </body>
 </html>
